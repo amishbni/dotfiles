@@ -1,2 +1,2 @@
 set number relativenumber
-nmap <CR> o<Esc>k
+nnoremap <CR> o<Esc>k
