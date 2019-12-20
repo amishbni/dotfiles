@@ -1,5 +1,6 @@
 set number relativenumber
 nnoremap <CR> o<Esc>k
+syntax on
 
 set nocompatible
 filetype off
