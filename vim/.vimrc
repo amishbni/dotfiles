@@ -14,3 +14,6 @@ Plugin 'plasticboy/vim-markdown'
 call vundle#end()
 
 filetype plugin indent on
+
+au BufRead,BufNewFile *.g set filetype=antlr3
+au BufRead,BufNewFile *.g4 set filetype=antlr4
