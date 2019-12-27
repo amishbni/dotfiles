@@ -116,5 +116,8 @@ alias antlr4='java -Xmx500M -cp "/usr/local/lib/antlr-4.7.1-complete.jar:$CLASSP
 alias grun='java -Xmx500M -cp "/usr/local/lib/antlr-4.7.1-complete.jar:$CLASSPATH" org.antlr.v4.gui.TestRig'
 alias python="python3.8"
 alias ls="colorls"
+alias c="xclip -selection c"
+alias p="xclip -selection c -o"
 
 function gitclone() { git clone "$1" && cd "$(basename "$_" .git)" || return; }
+function mkcdir() { mkdir "$1" && cd "$_" || return; }
