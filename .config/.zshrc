@@ -83,7 +83,7 @@ ZSH_THEME="powerlevel10k/powerlevel10k"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git)
+plugins=(git zsh-syntax-highlighting zsh-autosuggestions)
 
 source $ZSH/oh-my-zsh.sh
 source $(dirname $(gem which colorls))/tab_complete.sh
@@ -115,7 +115,7 @@ source $(dirname $(gem which colorls))/tab_complete.sh
 alias antlr4='java -Xmx500M -cp "/usr/local/lib/antlr-4.7.1-complete.jar:$CLASSPATH" org.antlr.v4.Tool'
 alias grun='java -Xmx500M -cp "/usr/local/lib/antlr-4.7.1-complete.jar:$CLASSPATH" org.antlr.v4.gui.TestRig'
 alias python="python3.8"
-alias ls="colorls"
+alias lc="colorls --group-directories-first"
 alias c="xclip -selection c"
 alias p="xclip -selection c -o"
 
