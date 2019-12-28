@@ -115,6 +115,7 @@ source $(dirname $(gem which colorls))/tab_complete.sh
 alias antlr4='java -Xmx500M -cp "/usr/local/lib/antlr-4.7.1-complete.jar:$CLASSPATH" org.antlr.v4.Tool'
 alias grun='java -Xmx500M -cp "/usr/local/lib/antlr-4.7.1-complete.jar:$CLASSPATH" org.antlr.v4.gui.TestRig'
 alias python="python3.8"
+alias ls="ls --group-directories-first --color=auto"
 alias lc="colorls --group-directories-first"
 alias c="xclip -selection c"
 alias p="xclip -selection c -o"
