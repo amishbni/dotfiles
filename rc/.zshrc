@@ -1,5 +1,6 @@
 # Path to your oh-my-zsh installation.
 export ZSH="/home/amir/.oh-my-zsh"
+export GIT_EDITOR="vim"
 
 # Theme
 ZSH_THEME="powerlevel10k/powerlevel10k"
