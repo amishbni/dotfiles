@@ -1,4 +1,7 @@
 # Set the wallpaper
-bain arch &
+feh --bg-scale .config/wallpaper.jpg
+
+# Transparency
+picom -b
 
 exec bspwm
