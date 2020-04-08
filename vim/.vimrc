@@ -1,22 +1,19 @@
-set number relativenumber
-nnoremap <CR> o<Esc>k
-syntax on
+filetype indent plugin on
 
-set nocompatible
-filetype off
-set rtp+=~/.vim/bundle/Vundle.vim
+au BufRead,BufNewFile *.py set expandtab
+au BufRead,BufNewFile Makefile* set noexpandtab
 
-call vundle#begin()
-
-Plugin 'godlygeek/tabular'
-Plugin 'plasticboy/vim-markdown'
-
-call vundle#end()
-
-filetype plugin indent on
-
-au BufRead,BufNewFile *.g set filetype=antlr3
-au BufRead,BufNewFile *.g4 set filetype=antlr4
-
+set expandtab
+set textwidth=120
 set tabstop=4
+set softtabstop=4
 set shiftwidth=4
+set autoindent
+
+set backspace=indent,eol,start
+
+set ruler
+syntax on
+set showcmd
+
+inoremap }<Tab> <Esc>o}<Esc>O
