@@ -16,4 +16,6 @@ set ruler
 syntax on
 set showcmd
 
+set termbidi
+
 inoremap }<Tab> <Esc>o}<Esc>O
