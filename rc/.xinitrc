@@ -1,7 +1,8 @@
-# Set the wallpaper
-feh --bg-scale .config/wallpaper.jpg
+# set the wallpaper
+feh --bg-scale ~/.config/wallpaper.png
 
-# Transparency
-picom -b
+# transparency
+picom &
 
+# run bspwd
 exec bspwm
