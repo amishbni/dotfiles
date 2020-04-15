@@ -84,7 +84,7 @@ label-empty-padding = 1
 type = internal/date
 interval = 1
 
-date = " %Y-%m-%d"
+date = %A, %B %d, %Y
 date-alt =
 
 time = %H:%M:%S
@@ -92,7 +92,7 @@ time-alt = %s
 
 format-prefix-foreground = ${colors.foreground-alt}
 
-label = %date% %time%
+label = %date% — %time%
 
 [module/battery]
 type = internal/battery
