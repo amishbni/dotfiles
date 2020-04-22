@@ -1,12 +1,11 @@
-# Path to your oh-my-zsh installation.
 export ZSH="/home/amir/.oh-my-zsh"
-export GIT_EDITOR="vim"
+source $HOME/.cargo/env
 
-# Theme
+# ZSH Theme
 ZSH_THEME="powerlevel10k/powerlevel10k"
 
 # Plugins
-plugins=(git)
+plugins=(git zsh-syntax-highlighting zsh-autosuggestions)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -14,4 +13,9 @@ source $ZSH/oh-my-zsh.sh
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
 # Aliases
-alias list="ls -hAlt --group-directories-first"
+alias list="exa -hal --group-directories-first --git"
+
+# Exports
+export EDITOR=vim
+export HISTSIZE=1000000
+export GIT_EDITOR=vim
