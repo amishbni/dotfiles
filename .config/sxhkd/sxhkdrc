@@ -75,7 +75,7 @@ super + {grave,Tab}
 	bspc {node,desktop} -f last
 
 # focus or send to the given desktop
-super + {_,shift + }{ampersand,bracketleft,braceleft,braceright,parenleft,equal,asterisk,parenright,plus,bracketright}
+super + {_,shift + }{1-9, 0}
 	bspc {desktop -f,node -d} '^{1-9,10}'
 
 #
