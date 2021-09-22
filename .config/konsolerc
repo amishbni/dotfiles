@@ -1,0 +1,14 @@
+[Desktop Entry]
+DefaultProfile=Amir.profile
+
+[KonsoleWindow]
+SaveGeometryOnExit=false
+ShowMenuBarByDefault=false
+
+[MainWindow]
+MenuBar=Disabled
+State=AAAA/wAAAAD9AAAAAAAABToAAALkAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAIAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgAAAAAA/////wAAAAAAAAAAAAAAHABzAGUAcwBzAGkAbwBuAFQAbwBvAGwAYgBhAHIAAAAAAP////8AAAAAAAAAAA==
+StatusBar=Disabled
+ToolBarsMovable=Disabled
+eDP-1 XPosition 1366x768=14
+eDP-1 YPosition 1366x768=14
