@@ -1,21 +1,20 @@
+# Exports
 export ZSH="/home/amir/.oh-my-zsh"
-source $HOME/.cargo/env
+export GIT_EDITOR="vim"
+export HISTSIZE=1000000
+export HISTFILE="/home/amir/.zsh_history"
+export SAVEHIST=1000000
 
-# ZSH Theme
-ZSH_THEME="powerlevel10k/powerlevel10k"
+# Theme
+ZSH_THEME="robbyrussell"
 
 # Plugins
-plugins=(git zsh-syntax-highlighting zsh-autosuggestions)
+plugins=(
+	git
+	zsh-autosuggestions
+	zsh-syntax-highlighting
+)
 
 source $ZSH/oh-my-zsh.sh
 
-# To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
-[[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
-
 # Aliases
-alias list="exa -hal --group-directories-first --git"
-
-# Exports
-export EDITOR=vim
-export HISTSIZE=1000000
-export GIT_EDITOR=vim
