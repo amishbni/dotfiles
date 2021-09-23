@@ -18,3 +18,4 @@ plugins=(
 source $ZSH/oh-my-zsh.sh
 
 # Aliases
+alias telegram="setsid Applications/Telegram/Telegram; exit"
