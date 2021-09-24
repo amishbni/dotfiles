@@ -24,6 +24,8 @@ XF86MonBrightness{Up,Down}
 XF86Audio{RaiseVolume,LowerVolume,Mute}
 	amixer set Master {3%+,3%-,toggle}
 
+Print
+	mkdir -p $HOME/Pictures; f=$(date +%s); shotgun $HOME/Pictures/$f.png; xclip -t "image/png" -selection clipboard $HOME/Pictures/$f.png
 #
 # bspwm hotkeys
 #
