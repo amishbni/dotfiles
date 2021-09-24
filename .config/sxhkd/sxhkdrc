@@ -21,6 +21,9 @@ super + Escape
 XF86MonBrightness{Up,Down}
 	xbacklight -{inc,dec} 10
 
+XF86Audio{RaiseVolume,LowerVolume,Mute}
+	amixer set Master {3%+,3%-,toggle}
+
 #
 # bspwm hotkeys
 #
