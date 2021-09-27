@@ -8,3 +8,6 @@ if has("syntax")
 	syntax on
 endif
 
+" highlight search
+set hlsearch
+
