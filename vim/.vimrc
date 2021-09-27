@@ -17,3 +17,8 @@ set hlsearch
 set ignorecase
 set smartcase
 
+" enable mouse
+if has("mouse")
+	set mouse=a
+endif
+
