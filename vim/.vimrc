@@ -11,3 +11,7 @@ endif
 " highlight search
 set hlsearch
 
+" case-insensitive search
+set ignorecase
+set smartcase
+
