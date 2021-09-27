@@ -30,3 +30,6 @@ set softtabstop=4
 set expandtab
 set smarttab
 
+" enable autowrite to automatically save file before running commands
+set autowrite
+
