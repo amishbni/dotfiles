@@ -1,9 +1,7 @@
 set nocompatible
 
 " enable filetype detection
-if has("filetype")
-	filetype indent plugin on
-endif
+filetype plugin indent on
 
 " enable syntax
 if has("syntax")
