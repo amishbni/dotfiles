@@ -33,3 +33,6 @@ set smarttab
 " enable autowrite to automatically save file before running commands
 set autowrite
 
+" enable autoindent
+set autoindent
+
