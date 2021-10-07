@@ -32,6 +32,9 @@ endif
 " numbers
 set number
 
+" UTF-8 encoding
+set encoding=utf-8
+
 " tabs and spaces
 set tabstop=4
 set shiftwidth=4
