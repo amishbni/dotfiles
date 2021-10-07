@@ -29,6 +29,9 @@ if has("mouse")
 	set mouse=a
 endif
 
+" numbers
+set number
+
 " tabs and spaces
 set tabstop=4
 set shiftwidth=4
