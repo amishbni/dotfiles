@@ -54,3 +54,9 @@ set splitright
 " change Leader key
 let mapleader = ","
 
+" save and open a vertical terminal
+nnoremap <leader>v :w<cr>:vert ter<cr>
+
+" save and open a horizontal terminal
+nnoremap <leader>t :w<cr>:ter<cr>
+
