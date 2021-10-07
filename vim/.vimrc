@@ -7,6 +7,7 @@ call vundle#begin()
 Plugin 'gmarik/Vundle.vim'
 Plugin 'tmhedberg/SimpylFold'
 Plugin 'vim-scripts/indentpython.vim'
+Plugin 'vim-python/python-syntax'
 call vundle#end()
 
 " enable filetype detection
@@ -90,4 +91,7 @@ au BufNewFile,BufRead *.py
     \ expandtab
     \ autoindent
     \ fileformat=unix
+
+" python-syntax
+let g:python_highlight_all = 1
 
