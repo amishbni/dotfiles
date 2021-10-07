@@ -6,6 +6,7 @@ set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 Plugin 'gmarik/Vundle.vim'
 Plugin 'tmhedberg/SimpylFold'
+Plugin 'vim-scripts/indentpython.vim'
 call vundle#end()
 
 " enable filetype detection
@@ -67,4 +68,14 @@ set foldlevel=99
 
 " fold with space
 nnoremap <space> za
+
+" Python indentation
+au BufNewFile,BufRead *.py
+    \ set tabstop=4 |
+    \ set softtabstop=4 |
+    \ set shiftwidth=4 |
+    \ set textwidth=79 |
+    \ set expandtab |
+    \ set autoindent |
+    \ set fileformat=unix
 
