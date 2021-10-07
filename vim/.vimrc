@@ -61,6 +61,10 @@ nnoremap <leader>v :w<cr>:vert ter<cr>
 " save and open a horizontal terminal
 nnoremap <leader>t :w<cr>:ter<cr>
 
+" delete lines in normal and visual mode
+nnoremap <leader>d "_dd
+xnoremap <leader>d "_dd
+
 " enable folding
 set foldmethod=indent
 set foldlevel=99
