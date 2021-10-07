@@ -51,3 +51,6 @@ nnoremap <C-H> <C-W><C-H>
 set splitbelow
 set splitright
 
+" change Leader key
+let mapleader = ","
+
