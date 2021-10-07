@@ -60,3 +60,7 @@ nnoremap <leader>v :w<cr>:vert ter<cr>
 " save and open a horizontal terminal
 nnoremap <leader>t :w<cr>:ter<cr>
 
+" enable folding
+set foldmethod=indent
+set foldlevel=99
+
