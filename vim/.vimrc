@@ -64,3 +64,6 @@ nnoremap <leader>t :w<cr>:ter<cr>
 set foldmethod=indent
 set foldlevel=99
 
+" fold with space
+nnoremap <space> za
+
