@@ -71,6 +71,9 @@ nnoremap <leader>t :w<cr>:ter<cr>
 nnoremap <leader>d "_d
 xnoremap <leader>d "_d
 
+" add a line below by pressing enter
+nnoremap <cr> o<esc>k
+
 " enable folding
 set foldmethod=indent
 set foldlevel=99
