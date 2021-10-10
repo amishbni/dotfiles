@@ -30,6 +30,7 @@ alias syncplay="setsid Applications/Syncplay/Syncplay-1.6.9-x86_64.AppImage; sle
 alias c="xclip -selection clipboard"
 alias v="xclip -o -selection clipboard"
 
+function xvim() {install -b /dev/null $1; vim +'set ft=sh' $1}
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
