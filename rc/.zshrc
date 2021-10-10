@@ -27,6 +27,9 @@ source $ZSH/oh-my-zsh.sh
 # Aliases
 alias telegram="setsid Applications/Telegram/Telegram; exit"
 alias syncplay="setsid Applications/Syncplay/Syncplay-1.6.9-x86_64.AppImage; sleep 3; exit"
+alias c="xclip -selection clipboard"
+alias v="xclip -o -selection clipboard"
+
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
