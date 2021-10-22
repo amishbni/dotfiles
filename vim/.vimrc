@@ -85,6 +85,9 @@ nnoremap <space> za
 " change the mode of Terminal (:ter, :vert ter) to NORMAL
 tnoremap <c-n> <c-w>N
 
+" automatically append closing curly braces
+inoremap {<CR>  {<CR>}<Esc>O
+
 " Python indentation
 au BufNewFile,BufRead *.py
     \ set tabstop=4
