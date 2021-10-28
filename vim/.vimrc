@@ -8,6 +8,7 @@ Plugin 'gmarik/Vundle.vim'
 Plugin 'tmhedberg/SimpylFold'
 Plugin 'vim-scripts/indentpython.vim'
 Plugin 'vim-python/python-syntax'
+Plugin 'alvan/vim-closetag'
 call vundle#end()
 
 " enable filetype detection
