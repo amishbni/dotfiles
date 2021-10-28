@@ -89,9 +89,6 @@ tnoremap <c-n> <c-w>N
 " automatically append closing curly braces
 inoremap {<CR>  {<CR>}<Esc>O
 
-" Highlight cursor line underneath the cursor horizontally.
-set cursorline
-
 " Python indentation
 au BufNewFile,BufRead *.py
     \ set tabstop=4
