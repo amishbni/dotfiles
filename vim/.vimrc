@@ -98,6 +98,15 @@ au BufNewFile,BufRead *.py
     \ autoindent
     \ fileformat=unix
 
+" HTML and CSS indentation
+au BufNewFile,BufRead *.{html,css}
+    \ set tabstop=2
+    \ softtabstop=2
+    \ shiftwidth=2
+    \ expandtab
+    \ autoindent
+    \ fileformat=unix
+
 " python-syntax
 let g:python_highlight_all = 1
 
