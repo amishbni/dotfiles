@@ -25,8 +25,8 @@ plugins=(
 source $ZSH/oh-my-zsh.sh
 
 # Aliases
-alias telegram="setsid Applications/Telegram/Telegram; exit"
-alias syncplay="setsid Applications/Syncplay/Syncplay-1.6.9-x86_64.AppImage; sleep 3; exit"
+alias telegram="setsid ~/Applications/Telegram/Telegram; exit"
+alias syncplay="setsid ~/Applications/Syncplay/Syncplay-1.6.9-x86_64.AppImage; sleep 3; exit"
 alias c="xclip -selection clipboard"
 alias v="xclip -o -selection clipboard"
 
