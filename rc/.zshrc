@@ -29,6 +29,7 @@ alias telegram="setsid ~/Applications/Telegram/Telegram; exit"
 alias syncplay="setsid ~/Applications/Syncplay/Syncplay.AppImage; sleep 3; exit"
 alias c="xclip -selection clipboard"
 alias v="xclip -o -selection clipboard"
+alias rest="echo mem | sudo tee /sys/power/state"
 
 function xvim() {
     if [[ -a $1 ]]; then
