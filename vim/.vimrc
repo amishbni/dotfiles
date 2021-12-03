@@ -9,6 +9,8 @@ Plugin 'tmhedberg/SimpylFold'
 Plugin 'vim-scripts/indentpython.vim'
 Plugin 'vim-python/python-syntax'
 Plugin 'alvan/vim-closetag'
+Plugin 'ekalinin/Dockerfile.vim'
+Plugin 'chr4/nginx.vim'
 call vundle#end()
 
 " enable filetype detection
