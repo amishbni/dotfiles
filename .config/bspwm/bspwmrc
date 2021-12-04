@@ -1,6 +1,6 @@
 #! /bin/sh
 
-pgrep -x sxhkd > /dev/null || sxhkd &
+pgrep -x sxhkd -m -1 > /dev/null || sxhkd -m -1 &
 
 bspc monitor -d 1 2 3 4 5 6 7 8 9 10
 

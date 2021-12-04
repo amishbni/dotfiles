@@ -3,7 +3,7 @@
 #
 
 # terminal emulator
-super + z
+super + q
 	konsole
 
 # firefox
@@ -83,7 +83,7 @@ super + {grave,Tab}
 	bspc {node,desktop} -f last
 
 # focus or send to the given desktop
-super + {_,shift + }{1-9, 0}
+super + {_,shift + }{ampersand,bracketleft,braceleft,braceright,parenleft,equal,asterisk,parenright,plus,bracketright}
 	bspc {desktop -f,node -d} '^{1-9,10}'
 
 #
