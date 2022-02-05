@@ -28,6 +28,9 @@ set hlsearch
 set ignorecase
 set smartcase
 
+" case-insensitive tab completion for files and directories
+set wildignorecase
+
 " enable mouse
 if has("mouse")
 	set mouse=a
@@ -112,4 +115,5 @@ au BufNewFile,BufRead *.{html,css}
 
 " python-syntax
 let g:python_highlight_all = 1
+
 
