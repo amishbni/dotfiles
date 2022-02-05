@@ -38,6 +38,8 @@ function xvim() {
         install /dev/null $1
         vim +'set ft=sh' $1
     fi
+function tree() {
+    exa -T -L=$1 --long
 }
 
 
