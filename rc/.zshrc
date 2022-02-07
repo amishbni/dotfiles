@@ -40,7 +40,7 @@ function xvim() {
     fi
 
 function tree() {
-    exa -T -L=$1 --long --git-ignore -I \.git ${@:2}
+    exa -T -L=$1 --long --git --git-ignore -I \.git ${@:2}
 }
 
 
