@@ -25,6 +25,11 @@ if has("syntax")
 	syntax on
 endif
 
+" enable termguicolors
+if has("termguicolors")
+    set termguicolors
+endif
+
 " set colorscheme
 colorscheme onedark
 
