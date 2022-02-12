@@ -14,6 +14,7 @@ Plugin 'ekalinin/Dockerfile.vim'
 Plugin 'chr4/nginx.vim'
 Plugin 'vim-scripts/django.vim'
 Plugin 'luochen1990/rainbow'
+Plugin 'joshdick/onedark.vim'
 call vundle#end()
 
 " enable filetype detection
@@ -23,6 +24,9 @@ filetype plugin indent on
 if has("syntax")
 	syntax on
 endif
+
+" set colorscheme
+colorscheme onedark
 
 " highlight search
 set hlsearch
