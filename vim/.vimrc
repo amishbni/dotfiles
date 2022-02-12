@@ -77,6 +77,9 @@ nnoremap <leader>v :w<cr>:vert ter<cr>
 " save and open a horizontal terminal
 nnoremap <leader>t :w<cr>:ter<cr>
 
+" stop the highlighting for the 'hlsearch' option.
+nnoremap <leader><esc> :noh<CR>
+
 " delete, not cut
 nnoremap <leader>d "_d
 xnoremap <leader>d "_d
