@@ -11,6 +11,7 @@ Plugin 'vim-python/python-syntax'
 Plugin 'alvan/vim-closetag'
 Plugin 'ekalinin/Dockerfile.vim'
 Plugin 'chr4/nginx.vim'
+Plugin 'vim-scripts/django.vim'
 call vundle#end()
 
 " enable filetype detection
@@ -116,4 +117,8 @@ au BufNewFile,BufRead *.{html,css}
 " python-syntax
 let g:python_highlight_all = 1
 
+" vim-django
+let g:django_projects = "~/Code"
+let g:django_activate_virtualenv = 1
+let g:django_activate_nerdtree = 0
 
