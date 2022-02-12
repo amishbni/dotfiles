@@ -13,6 +13,7 @@ Plugin 'alvan/vim-closetag'
 Plugin 'ekalinin/Dockerfile.vim'
 Plugin 'chr4/nginx.vim'
 Plugin 'vim-scripts/django.vim'
+Plugin 'luochen1990/rainbow'
 call vundle#end()
 
 " enable filetype detection
@@ -123,3 +124,5 @@ let g:django_projects = "~/Code"
 let g:django_activate_virtualenv = 1
 let g:django_activate_nerdtree = 0
 
+" Rainbow Parentheses
+let g:rainbow_active = 1
