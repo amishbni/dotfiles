@@ -36,6 +36,7 @@ function xvim() {
         install /dev/null $1
         vim +'set ft=sh' $1
     fi
+alias kitty="$HOME/.local/kitty.app/bin/kitty"
 
 function tree() {
     exa -T -L=$1 --long --git --git-ignore -I \.git ${@:2}
