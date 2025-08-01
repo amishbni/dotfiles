@@ -1,0 +1,22 @@
+#!/bin/bash
+
+FISH_HISTORY="$HOME/.local/share/fish/fish_history"
+FISH_BACKUP_HISTORY="$HOME/Code/fish-history/fish_history"
+
+if ! command -v git &> /dev/null; then
+	echo -e "\033[0;31mgit is not installed\033[0m"
+	exit 1
+fi
+
+now=$(date +"%Y-%m-%d %H:%M:%S")
+
+gitdir=$(dirname "$FISH_BACKUP_HISTORY")
+cd $gitdir
+
+cp $FISH_HISTORY $FISH_BACKUP_HISTORY
+git add $FISH_BACKUP_HISTORY
+git commit -m "$now"
+git push
+
+echo "done"
+
