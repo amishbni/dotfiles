@@ -6,4 +6,5 @@ if status is-interactive
 	alias cursor "setsid $HOME/Applications/cursor/Cursor-1.2.1-x86_64.AppImage --no-sandbox; sleep 3; exit"
 	alias pycharm "setsid $HOME/Applications/pycharm/bin/pycharm; sleep 3; exit"
 	alias webstorm "setsid $HOME/Applications/webstorm/bin/webstorm; sleep 3; exit"
+	alias intellij "setsid $HOME/Applications/idea/bin/idea; sleep 3; exit"
 end
