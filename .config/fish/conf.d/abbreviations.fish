@@ -1,0 +1,6 @@
+abbr -a -- gs 'git status'
+abbr -a -- gps 'git push origin'
+abbr -a -- gpl 'git pull origin'
+abbr -a -- gw 'git switch'
+abbr -a -- ga 'git add'
+abbr -a -- gc 'git commit'
